@@ -1,5 +1,5 @@
 {
-  "name": "@meditech/conventional-changelog-angular-bitbucket",
+  "name": "conventional-changelog-angular-bitbucket-jira",
   "version": "1.0.0",
   "description": "conventional-changelog Angular preset for BitBucket",
   "keywords": [
