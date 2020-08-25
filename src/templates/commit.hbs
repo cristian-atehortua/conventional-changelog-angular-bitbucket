@@ -1,4 +1,7 @@
-*{{#if scope}} **{{scope}}:**
+*{{#if scope}} 
+    {{#if @root.packageData.bugs.url}} **[{{scope}}]({{@root.packageData.bugs.url}}/{{scope}}):** 
+    {{~else}} **{{scope}}:** 
+    {{~/if}}
 {{~/if}} {{#if subject}}
   {{~subject}}
 {{~else}}

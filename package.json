@@ -1,6 +1,6 @@
 {
-  "name": "conventional-changelog-angular-bitbucket",
-  "version": "0.0.0-development",
+  "name": "@meditech/conventional-changelog-angular-bitbucket",
+  "version": "1.0.0",
   "description": "conventional-changelog Angular preset for BitBucket",
   "keywords": [
     "angular",
@@ -9,9 +9,9 @@
     "conventional-changelog",
     "preset"
   ],
-  "homepage": "https://github.com/uglow/conventional-changelog-angular-bitbucket#readme",
+  "homepage": "ttps://github.com/okonech/conventional-changelog-angular-bitbucket#readme",
   "bugs": {
-    "url": "https://github.com/uglow/conventional-changelog-angular-bitbucket/issues"
+    "url": "ttps://github.com/okonech/conventional-changelog-angular-bitbucket/issues"
   },
   "license": "MIT",
   "author": "Brett Uglow <u_glow@hotmail.com> (http://uglow.github.io/)",
@@ -21,7 +21,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uglow/conventional-changelog-angular-bitbucket.git"
+    "url": "https://github.com/okonech/conventional-changelog-angular-bitbucket.git"
   },
   "scripts": {
     "pre-release": "npm-run-all verify test:coverage",
