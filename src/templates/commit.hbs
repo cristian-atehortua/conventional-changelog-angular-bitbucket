@@ -1,6 +1,6 @@
-*{{#if scope}} 
-    {{#if @root.packageData.bugs.url}} **[{{scope}}]({{@root.packageData.bugs.url}}/{{scope}}):** 
-    {{~else}} **{{scope}}:** 
+*{{#if scope}}
+    {{#if @root.packageData.bugs.url}} **[{{scope}}]({{@root.packageData.bugs.url}}/{{scope}}):**
+    {{~else}} **{{scope}}:**
     {{~/if}}
 {{~/if}} {{#if subject}}
   {{~subject}}
@@ -12,10 +12,10 @@
   ([{{hash}}](
   {{~#if @root.repository~}}
     {{~#if @root.host}}
-      {{~@root.host}}/projects/
+      {{~@root.host}}/
     {{~/if}}
     {{~#if @root.owner~}}
-      {{~@root.owner}}/repos/
+      {{~@root.owner}}/
     {{~/if~}}
     {{~@root.repository}}/
   {{~else}}
